@@ -84,7 +84,7 @@ for(let i=0;i<10000;i++){
 console.timeEnd('js')
 ```
 
-结果：
+截图：
 
 ![deno_run_test_js_10000_times.png](/images/deno_run_test_js_10000_times.png)
 
@@ -100,11 +100,19 @@ for(let i=0;i<10000;i++){
 console.timeEnd('ts')
 ```
 
-结果：
+截图：
 
 ![deno_run_test_ts_10000_times.png](/images/deno_run_test_ts_10000_times.png)
 
 
+- 结果：
+
+> 非常感人！！使用deno 去运行同一个段代码，ts文件比js文件，性能 提升100% ！！
+
+    - js 1393ms
+    - ts 696ms  !!
+
+> ry，请收下我的膝盖吧~~~
 
 __________________________
 
