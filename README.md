@@ -3,17 +3,17 @@
 ## 安装deno 省略
     - windows 安装
     - linux 安装
-## 版本
+## 测试版本
     - deno:0.3.2
     - v8:7.4.238
     - typescript:3.2.1
-## deno run linux
+## linux run deno
 ![linux jpg](/images/deno_run_linux.jpg)
-## deno run windows
+## windows run deno
 ![windwos jpg](/images/deno_run_windows.jpg)
 
 ## wow!! deno 和 node 去测试一段代码，结果感人！！
-- node 测试的代码 10次循环打印
+- node 测试的代码，10次循环打印
 ```js
 console.time('js')
 for(let i=0;i<10;i++){
@@ -21,7 +21,7 @@ for(let i=0;i<10;i++){
 }
 console.timeEnd('js')
 ```
-- deno 测试的代码 10次循环打印
+- deno 测试的代码，10次循环打印
 ```typescript
 console.time('ts')
 for(let i=0;i<10;i++){
@@ -65,10 +65,43 @@ console.timeEnd('ts')
 ![no_console_print.png](/images/no_console_print.png)
 
 
-## bug 和不足
+## bug和不足
 1. 无法识别import from，必须是绝对路径
 2. 且后缀无法省略
 ![module_err.png](/images/module_err.png)
+
+### deno 完全可以替代node呀！！deno 分别测试 同一个代码的js文件和ts文件
+
+- js 文件，1w次打印
+
+代码：
+
+```js
+console.time('js')
+for(let i=0;i<10000;i++){
+    console.log('_______'+i+'_______')
+}
+console.timeEnd('js')
+```
+
+结果：
+![deno_run_test_js_10000_times.png](/images/deno_run_test_js_10000_times.png)
+
+- ts 文件，1w次打印
+
+代码：
+```typescript
+console.time('ts')
+for(let i=0;i<10000;i++){
+    console.log('_______'+i+'_______')
+}
+console.timeEnd('ts')
+```
+
+结果：
+![deno_run_test_ts_10000_times.png](/images/deno_run_test_ts_10000_times.png)
+
+
 
 __________________________
 
