@@ -85,7 +85,9 @@ console.timeEnd('js')
 ```
 
 结果：
+
 ![deno_run_test_js_10000_times.png](/images/deno_run_test_js_10000_times.png)
+
 
 - ts 文件，1w次打印
 
@@ -99,6 +101,7 @@ console.timeEnd('ts')
 ```
 
 结果：
+
 ![deno_run_test_ts_10000_times.png](/images/deno_run_test_ts_10000_times.png)
 
 
