@@ -33,11 +33,14 @@ console.timeEnd('ts')
 ### 如果一万次呢？
 
 - node 测试10000次
-![node test 10000 times](/images/node_test_10000_time.png)
-- deno 测试10000次
-![deno test 10000 times](/images/deno_test_10000_time.png)
 
-### 但是，如果不console
+![node test 10000 times](/images/node_test_10000_times.png)
+
+- deno 测试10000次
+
+![deno test 10000 times](/images/deno_test_10000_times.png)
+
+### 但是，如果不console呢？
 
 - node code
 ```js
@@ -66,6 +69,9 @@ console.timeEnd('ts')
 1. 无法识别import from，必须是绝对路径
 2. 且后缀无法省略
 ![module_err.png](/images/module_err.png)
-__________________________-
+
+__________________________
+
 2019年3月14日16:31:28
+
 by @veaba
