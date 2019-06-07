@@ -1,4 +1,9 @@
-# deno run typescript code demo! 使用deno 去运行同一段代码，分别为js、ts后缀，测试发现deno运行ts后缀的文件比deno运行js文件性能提升了——100%，结果感人！ry，请收下膝盖吧！
+##docker 
+> docker pull registry.cn-beijing.aliyuncs.com/veaba/deno-typescript-service:latest
+
+## deno run typescript code demo! 
+
+使用deno 去运行同一段代码，分别为js、ts后缀，测试发现deno运行ts后缀的文件比deno运行js文件性能提升了——100%，结果感人！ry，请收下膝盖吧！
 
 > 基于deno typescript runtime 开发typescript代码的demo、笔记。以下测试纯属test，不在是非常严格的环境下进行的。
 
