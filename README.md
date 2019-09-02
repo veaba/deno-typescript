@@ -7,7 +7,22 @@
 
 > 基于deno typescript runtime 开发typescript代码的demo、笔记。以下测试纯属test，不在是非常严格的环境下进行的。
 
-## 安装deno 省略
+
+## 关于本镜像内容
+
+- bash √
+- curl √
+- node@10.15.3 √
+- npm@6.11.2 √
+- v8@7.6.53 √
+- deno@0.7.0 √
+- @vue/cli √
+- vue@3.11.0 √
+- typescript@ √
+- tsc@3.5.1 √
+- cnpm@6.1.0 √
+
+## 安装deno 省略，以下内容是以往测试代码
     - windows 安装
     - linux 安装
 ## 测试版本
